@@ -18,14 +18,6 @@
   <!-- cordova.js required for cordova apps (remove if not needed) -->
   <script src="cordova.js"></script>
 
-  <!-- un-comment this code to enable service worker
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js')
-        .then(() => console.log('service worker installed'))
-        .catch(err => console.error('Error', err));
-    }
-  </script>-->
 
   <link href="build/main.css" rel="stylesheet">
 
@@ -44,6 +36,21 @@
 
   <!-- The main bundle js is generated during the build process -->
   <script src="build/main.js"></script>
+  
+
+  <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCmSq5CxDnVrT8pdErsMbNzq7g63PXxkro",
+      authDomain: "task-app-b0628.firebaseapp.com",
+      databaseURL: "https://task-app-b0628.firebaseio.com",
+      projectId: "task-app-b0628",
+      storageBucket: "task-app-b0628.appspot.com",
+      messagingSenderId: "299430065996"
+    };
+    firebase.initializeApp(config);
+  </script>
 
 </body>
 </html>

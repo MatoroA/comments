@@ -1,3 +1,33 @@
 page-home {
+    ul {
+      padding: 10px;
+      &.rating li {
+        padding: 5px 10px !important;
+        background: none;
+        color: #4400ff;
+        ion-icon {
+          font-size: 40px;
+        }
+      }
+    }
+    }
+    page-home {
 
-}
+        ion-content{
+        
+            background-image: url(https://media.giphy.com/media/l2R0aKwejYr8ycKAg/giphy.gif);
+            background-image: url(https://media.giphy.com/media/l2R0aKwejYr8ycKAg/giphy.gif);
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position: center;
+            // display: block;
+            // margin-left: auto;
+            // margin-right: auto;
+          }
+        }
+ 
+        ion-input, ion-select, ion-textarea {
+        
+          padding: 5px 10px;
+          text-decoration-color: #ffb400;
+        }

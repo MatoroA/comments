@@ -1,0 +1,56 @@
+page-login {
+    p {
+    font-size: 1em;
+    }
+    h3 {
+    font-size: 1.2em;
+    color: #6e6e6e;
+    text-align: center;
+    margin-bottom: 15px;
+    }
+    .item-toggle {
+    background-color: white;
+    border: none;
+    color: rgb(50, 50, 50);
+    padding: 0;
+    }
+    .item-input {
+text-decoration-color: aqua;
+    background-color: white;
+    border-color: darkgray;
+    border-width: 1px !important;
+    border-style: solid;
+    color: rgb(50, 50, 50);
+    padding: 0;
+    border-radius: 10px;
+    }
+    .item-select {
+    background-color: white;
+    border-color: darkgray;
+    border-width: 1px !important;
+    border-style: solid;
+    color: rgb(50, 50, 50);
+    padding: 0;
+    border-radius: 10px;
+    }
+   
+   }
+   page-login {
+
+    ion-content{
+    
+        background-image: url(https://media.giphy.com/media/l2R0aKwejYr8ycKAg/giphy.gif);
+            background-image: url(https://media.giphy.com/media/l2R0aKwejYr8ycKAg/giphy.gif);
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position: center;
+            // display: block;
+            // margin-left: auto;
+            // margin-right: auto;
+      }
+    }
+
+    ion-input, ion-select, ion-textarea {
+    
+      padding: 5px 10px;
+    }
